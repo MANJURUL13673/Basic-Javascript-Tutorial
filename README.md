@@ -32,5 +32,5 @@ We can declare variable by calling `let` or `const` in JS. Both can store and un
 - let - this type of variable can vary. We can reinitialize it.
 - const - this type of variable is constant. It can not reinitialize.
 <p>For declarying string <code>''</code> and <code>""</code> both are acceptable.
-No need to worry about <code>;</code> int the last of line. JS gives flexibility to use this.
+No need to worry about <code>;</code> int the last of line. JS gives flexibility to use this.<br>
 <b>File: variables.js</b></p>
