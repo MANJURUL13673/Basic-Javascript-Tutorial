@@ -27,7 +27,7 @@ node HelloWorld.js
 In the command line after write `node`, give a space and write your file name whatever it is. Press Enter. 
 You will see the output `Hello World!!!`
 <b>File: HelloWorld.js</b>
-### Introduction to variable
+## Introduction to variable
 We can declare variable by calling `let` or `const` in JS. Both can store and understand any type of data like int, float, string etc.
 - let - this type of variable can vary. We can reinitialize it.
 - const - this type of variable is constant. It can not reinitialize.
