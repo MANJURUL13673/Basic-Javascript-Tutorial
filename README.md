@@ -31,6 +31,6 @@ In the command line after write `node`, give a space and write your file name wh
 We can declare variable by calling `let` or `const` in JS. Both can store and understand any type of data like int, float, string etc.
 - let - this type of variable can vary. We can reinitialize it.
 - const - this type of variable is constant. It can not reinitialize.
-<p>For declarying string <code>''<code> and <code>""</code> both are acceptable.
+<p>For declarying string <code>''</code> and <code>""</code> both are acceptable.
 No need to worry about <code>;</code> int the last of line. JS gives flexibility to use this.
 <b>File: variables.js</b></p>
