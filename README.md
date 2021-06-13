@@ -9,7 +9,7 @@ This repository will discuss the basic Javascript operation from Scratch to Adva
 - Download and install node js - https://nodejs.org/en/
     Open your command line and write -
     ```
-        node -v
+    node -v
     ```
     If node js successfully installed, you will get the node js version number.
 - Code Editor - It is totally your choice. Nothing is bad. But I am now currently use VSCode.
@@ -24,7 +24,13 @@ Open your command line. Go to the directory where the file exist. Run the file b
 ```
 node HelloWorld.js
 ```
-In the command line after write `node`, give a space and write your file name whatever it is. Press Enter.
+In the command line after write `node`, give a space and write your file name whatever it is. Press Enter. 
 You will see the output `Hello World!!!`
-
-
+<b>File: HelloWorld.js</b>
+### Introduction to variable
+We can declare variable by calling `let` or `const` in JS. Both can store and understand any type of data like int, float, string etc.
+- let - this type of variable can vary. We can reinitialize it.
+- const - this type of variable is constant. It can not reinitialize.
+For declarying string `''` and `""` both are acceptable.
+No need to worry about `;` int the last of line. JS gives flexibility to use this.
+<b>File: variables.js</b>
