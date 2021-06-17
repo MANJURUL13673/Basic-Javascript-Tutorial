@@ -6,7 +6,7 @@ This repository will discuss the basic Javascript operation from Scratch to Adva
 - Code Editor - Sublime Text, Atom, VSCode etc.
 - Browser - Chrome
 ## Environment Setup
-- Download and install node js - https://nodejs.org/en/
+- Download and install node js - https://nodejs.org/en/<br>
     Open your command line and write -
     ```
     node -v
@@ -14,7 +14,7 @@ This repository will discuss the basic Javascript operation from Scratch to Adva
     If node js successfully installed, you will get the node js version number.
 - Code Editor - It is totally your choice. Nothing is bad. But I am now currently use VSCode.
 - Browser - Chrome is preferable.
-## Start with our first code
+## Start with the first code
 Create a file name HelloWorld.js. You can give any name with extension .js.
 Write some code in the file.
 ```
@@ -32,5 +32,13 @@ We can declare variable by calling `let` or `const` in JS. Both can store and un
 - let - this type of variable can vary. We can reinitialize it.
 - const - this type of variable is constant. It can not reinitialize.
 <p>For declarying string <code>''</code> and <code>""</code> both are acceptable.
-No need to worry about <code>;</code> int the last of line. JS gives flexibility to use this.<br>
+No need to worry about <code>;</code> in the last of line. JS gives flexibility to use this.<br>
 <b>File: variables.js</b></p>
+
+## Introduction to number
+Mathermatical calculations like addition, subtraction, multiplication and division can be done in JS.<br>
+% sign calculate the modulus of a number.<br>
+<b>Special Tricks:</b>
+- Bracket a segment by selecting the segment and press Shift + 9.
+- For commenting several lines, select these lines and press Ctrl + /.<br>
+<b>File: celsius.js</b>
