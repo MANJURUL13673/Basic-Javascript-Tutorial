@@ -38,7 +38,12 @@ No need to worry about <code>;</code> in the last of line. JS gives flexibility 
 ## Introduction to number
 Mathermatical calculations like addition, subtraction, multiplication and division can be done in JS.<br>
 % sign calculate the modulus of a number.<br>
+
 <b>Special Tricks:</b>
 - Bracket a segment by selecting the segment and press Shift + 9.
 - For commenting several lines, select these lines and press Ctrl + /.<br>
+
 <b>File: celsius.js</b>
+## Understanding on Undefined, Null and Boolean
+Undefined and Null are two different concept. Undefined means the variable is not defined or it has unknown value. And null means the value has no value. So undefined and null is two different concept. <br>
+Boolean is a type of only true or false. Comparison between two operators gives the Boolean type data.
