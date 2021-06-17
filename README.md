@@ -53,4 +53,11 @@ This is for condition checking.
 - Else If Block - If 'If block' is not true then check this block condition. Multiple Else If block is possible.
 - Else Block - If bought 'If and Else block' is not true then go for this block.
 
+<b>File: learnifElse.js</b>
+## Logical Operation
+There are 3 logical operation in JS.
+- && - AND operator - Both sides need to be true
+- || - Or operation - One side need to be true
+- ! - Not operatior - Reverse the logical operation true to false and false to true
 
+<b>File: logicalOps.js</b>
