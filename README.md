@@ -44,6 +44,13 @@ Mathermatical calculations like addition, subtraction, multiplication and divisi
 - For commenting several lines, select these lines and press Ctrl + /.<br>
 
 <b>File: celsius.js</b>
-## Understanding on Undefined, Null and Boolean
-Undefined and Null are two different concept. Undefined means the variable is not defined or it has unknown value. And null means the value has no value. So undefined and null is two different concept. <br>
-Boolean is a type of only true or false. Comparison between two operators gives the Boolean type data.
+## Undefined, Null and Boolean
+<b>Undefined and Null are two different concept.</b> Undefined means the variable is not defined or it has unknown value. And null means the value has no value.<br>
+Boolean is a type of only true or false. Comparison between two variables gives the Boolean type data.
+## IF ELSE 
+This is for condition checking.
+- If Block - initial block for condition checking. 
+- Else If Block - If 'If block' is not true then check this block condition. Multiple Else If block is possible.
+- Else Block - If bought 'If and Else block' is not true then go for this block.
+
+
