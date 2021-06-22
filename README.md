@@ -47,6 +47,8 @@ Mathermatical calculations like addition, subtraction, multiplication and divisi
 ## Undefined, Null and Boolean
 <b>Undefined and Null are two different concept.</b> Undefined means the variable is not defined or it has unknown value. And null means the value has no value.<br>
 Boolean is a type of only true or false. Comparison between two variables gives the Boolean type data.
+
+<b>File: nullandBool.js</b>
 ## IF ELSE 
 This is for condition checking.
 - If Block - initial block for condition checking. 
@@ -61,3 +63,11 @@ There are 3 logical operation in JS.
 - ! - Not operatior - Reverse the logical operation true to false and false to true
 
 <b>File: logicalOps.js</b>
+## let vs var
+- let - let is depend on scope or block of code. it works as local or global totally depends on you.
+- var - var does not maintain any scope. wheather we declares it, it always works as global variable.<br>
+
+<i>Caution: We should try to do not use var unless the variable is completely global.</i><br>
+If we try to access local variable from outside of it's decleration scope then it gives an error.
+
+<b>File: scope.js</b>
