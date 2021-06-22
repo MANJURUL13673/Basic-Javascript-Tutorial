@@ -26,6 +26,7 @@ node HelloWorld.js
 ```
 In the command line after write `node`, give a space and write your file name whatever it is. Press Enter. 
 <br>You will see the output `Hello World!!!`
+
 <br><b>File: HelloWorld.js</b>
 ## Introduction to variable
 We can declare variable by calling `let` or `const` in JS. Both can store and understand any type of data like int, float, string etc.
@@ -33,6 +34,7 @@ We can declare variable by calling `let` or `const` in JS. Both can store and un
 - const - this type of variable is constant. It can not reinitialize.
 <p>For declarying string <code>''</code> and <code>""</code> both are acceptable.
 No need to worry about <code>;</code> in the last of line. JS gives flexibility to use this.<br>
+
 <b>File: variables.js</b></p>
 
 ## Introduction to number
@@ -64,10 +66,43 @@ There are 3 logical operation in JS.
 
 <b>File: logicalOps.js</b>
 ## let vs var
-- let - let is depend on scope or block of code. it works as local or global totally depends on you.
+- let - let is depend on scope or block of code. It works as local or global totally depends on you.
 - var - var does not maintain any scope. wheather we declares it, it always works as global variable.<br>
 
 <i>Caution: We should try to do not use var unless the variable is completely global.</i><br>
+
 If we try to access local variable from outside of it's decleration scope then it gives an error.
 
 <b>File: scope.js</b>
+## Scope
+- If we redeclare a let then it will not change in the outer block.<br>
+```
+let King = 'John'
+if(true)
+{
+    let King = 'Sam';
+    //This part King is Sam
+}
+//This part King is John
+```
+- If we do not redeclare a let then the value will change in outer block also.<br>
+```
+let King = 'John'
+if(true)
+{
+    King = 'Sam'
+    //This part King is Sam
+}
+//Also in this part the King is Sam. As we do not redeclare the let.
+```
+- If we forget to declaration a variable, it always declare as var.<br>
+```
+if(true)
+{
+    King = 'Sam'
+    //This part can access to King
+}
+//Also this outer part can access to King
+```
+
+<b>File: Scope.js</b>
