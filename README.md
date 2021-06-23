@@ -143,10 +143,14 @@ let functionName = function(param1, param2) {
 
 }
 ```
-Processing:<br>
-For working the function from any place of the code simply call by `functionName()`.<br> 
-If any parameter need to pass then `()` inside the bracket the parameter should be pass and catch by variables in function.<br>
-If it is need to return a value, then simply return the value from inside the function.
+Processing:
+- For working the function from any place of the code simply call by `functionName()`.
+- If any parameter need to pass then `()` inside the bracket the parameter should be pass and catch by variables in function.
+- If it is need to return a value, then simply return the value from inside the function.
+
+Default Value in function Parameter:
+We can set a default value for parameter of function. If no value pass in any parameter of function then parameter use their default value.<br>
+Just use equal sign to set default value in parameter. `function(param1 = defaultValue1, param2 = defaultValue2)`
 
 <b>File: 01functions.js</b>
 

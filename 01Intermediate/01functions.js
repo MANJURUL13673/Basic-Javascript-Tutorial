@@ -24,3 +24,16 @@ let myAdder = function(num1, num2)  //receive the parameter
 
 let result = myAdder(3, 5)  //pass parameter
 console.log(result)
+
+let myMultiplier = function(num1, num2)
+{
+    return num1 * num2  //without waste of a variable
+}
+
+let guestUser = function(name = 'unName', courseCount = 0)
+{
+    return `Hello ${name} and your course count is: ${courseCount}`
+}
+
+console.log(guestUser())
+console.log(guestUser('John', 8))
