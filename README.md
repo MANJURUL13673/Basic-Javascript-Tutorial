@@ -143,9 +143,9 @@ let functionName = function(param1, param2) {
 
 }
 ```
-Processing:
-For working the function from any place of the code simply call by `functionName()`. 
-If any parameter need to pass then `()` inside the bracket the parameter should be pass and catch by variables in function.
+Processing:<br>
+For working the function from any place of the code simply call by `functionName()`.<br> 
+If any parameter need to pass then `()` inside the bracket the parameter should be pass and catch by variables in function.<br>
 If it is need to return a value, then simply return the value from inside the function.
 
 <b>File: 01functions.js</b>
