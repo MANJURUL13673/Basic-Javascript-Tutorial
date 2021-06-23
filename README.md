@@ -66,8 +66,8 @@ There are 3 logical operation in JS.
 
 <b>File: logicalOps.js</b>
 ## let vs var
-- let - let is depend on scope or block of code. It works as local or global totally depends on you.
-- var - var does not maintain any scope. wheather we declares it, it always works as global variable.<br>
+- let - let maintain block scope. It works as local block of code `{}` or global in a function totally depends on you.
+- var - var maintain functional scope. wheather we declares it, it always works as global variable for a function.<br>
 
 <i>Caution: We should try to do not use var unless the variable is completely global.</i><br>
 
@@ -106,3 +106,16 @@ if(true)
 ```
 
 <b>File: Scope.js</b>
+## Array
+Array is a technique to store one or multiple values in a single variable.
+- `[]` third bracket use to initialize the array. Multiple values are separated by `,` inside the `[]`
+- Array indexing always start from 0.
+- The value inside the array can be accessible by calling it's index.<br>
+```
+arrayName[index]
+```
+- We can get the size of the array by simply call `arrayName.length`<br>
+
+<i>Tricks: We can do any operation inside the `${}` in `console.log()`</i>
+
+<b>File: marvels.js</b>
