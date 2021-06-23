@@ -134,6 +134,16 @@ Insert and Delete:
 - splice(index_position, delete_count, newValue): It deleted delete_count value from the index_position and insert a newValue in the index_position.
 
 <b>File: marvels.js</b>
+## For Each
+forEach loop use for looping in array. It uses a callback function.
+```
+arrayName.forEach(function(array_value, array_index) {
+    //processing work
+})
+```
+<i>The call back functions parameter are specefic. First parameter represent the current value of the array and second parameter represent the current index.</i>
+
+<b>File: trello.js</b>
 ## Function
 Function is a block of code to do a specific task. It can do both taking parameter and return value after processing.
 
@@ -148,7 +158,7 @@ Processing:
 - If any parameter need to pass then `()` inside the bracket the parameter should be pass and catch by variables in function.
 - If it is need to return a value, then simply return the value from inside the function.
 
-Default Value in function Parameter:
+Default Value in function Parameter:<br>
 We can set a default value for parameter of function. If no value pass in any parameter of function then parameter use their default value.<br>
 Just use equal sign to set default value in parameter. `function(param1 = defaultValue1, param2 = defaultValue2)`
 
