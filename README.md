@@ -69,13 +69,13 @@ There are 3 logical operation in JS.
 - let - let maintain block scope. It works as local block of code `{}` or global in a function totally depends on you.
 - var - var maintain functional scope. wheather we declares it, it always works as global variable for a function.<br>
 
-<i>Caution: We should try to do not use var unless the variable is completely global.</i><br>
+<i>Caution: We should try to do not use var unless the variable is completely global in a function.</i><br>
 
 If we try to access local variable from outside of it's decleration scope then it gives an error.
 
 <b>File: scope.js</b>
 ## Scope
-- If we redeclare a let then it will not change in the outer block.<br>
+- If we redeclare a let then it will not change in the outer block.
 ```
 let King = 'John'
 if(true)
@@ -117,5 +117,20 @@ arrayName[index]
 - We can get the size of the array by simply call `arrayName.length`<br>
 
 <i>Tricks: We can do any operation inside the `${}` in `console.log()`</i>
+
+<b>File: marvels.js</b>
+## CRUD in Array
+Update:
+- Simply give a new value in the index which we need to update. 
+```
+arrayName[updateIndexNo] = updated_value
+```
+
+Insert and Delete:
+- Shift(): Delete the first element of array. This method return the value which has deleted from first.
+- Unshift(newValue): Insert newValue in the first of the array.
+- Pop(): Delete the last element of array. This method return the value which has delete from last.
+- Push(newValue): Insert newValue in the last of the array.
+- splice(index_position, delete_count, newValue): It deleted delete_count value from the index_position and insert a newValue in the index_position.
 
 <b>File: marvels.js</b>
