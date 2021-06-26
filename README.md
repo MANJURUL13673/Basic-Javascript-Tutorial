@@ -144,6 +144,14 @@ arrayName.forEach(function(array_value, array_index) {
 <i>The call back functions parameter are specefic. First parameter represent the current value of the array and second parameter represent the current index.</i>
 
 <b>File: trello.js</b>
+## For Loop
+For loop in JS is same like the for looping technique for other programming language.
+There are 3 things need to remember when write the for loop.
+- Initialize the variable for looping.
+- Give a condition when the loop will be break. Otherwise it will be infinite loop.
+- Increment the intialize variable as you need so that it will meet the condition at a time. 
+
+<b>File: trello.js</b>
 ## Function
 Function is a block of code to do a specific task. It can do both taking parameter and return value after processing.
 
